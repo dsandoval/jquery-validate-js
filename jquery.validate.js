@@ -65,6 +65,7 @@
 			     	setAlert(element);
 			     	$(element).val('');
 			     	$(element).attr('placeholder',e);
+				throw new Error("Error : " + e);
 					return false;
 				}
 			}
@@ -76,6 +77,7 @@
 					setAlert(element);
 					$(element).val('');
 		     		$(element).attr('placeholder',e);
+				throw new Error("Error : " + e);
 					return false;		
 				}
 			}
@@ -86,6 +88,7 @@
 					setAlert(element);			
 					$(element).val('');
 		     		$(element).attr('placeholder',e);
+				throw new Error("Error : " + e);
 					return false;		
 				}
 			}
@@ -96,6 +99,7 @@
 					setAlert(element);			
 					$(element).val('');
 		     		$(element).attr('placeholder',e);
+				throw new Error("Error : " + e);
 					return false;		
 				}
 			}
@@ -107,6 +111,7 @@
 					setAlert(f);	
 					$(element).val('');
 		     		$(element).attr('placeholder',e);
+				throw new Error("Error : " + e);
 					return false;		
 				}
 			}
